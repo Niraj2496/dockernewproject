@@ -19,3 +19,12 @@ services:
     ports:
       - "83:80"
     deploy:
+      replicas: 3
+
+  recharge:
+    image: nirajganjiwar24/payrecharge:latest
+    ports:
+      - "84:80"
+    deploy:
+      replicas: 3
+       
