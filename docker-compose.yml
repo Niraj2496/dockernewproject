@@ -3,7 +3,7 @@ services:
   movies:
     image: nirajganjiwar24/paymovies:latest
     ports:
-      - "81.80"
+      - "81:80"
     deploy:
       replicas: 3
 
